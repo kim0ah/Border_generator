@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="titleBox">
+        <h1>Border Radius Generator</h1>
+    </div>
+
+        <div class="container">
+
+            <div class="box"></div>
+
+            <div class="inputsBox">
+                <div class="fullRadius">
+                    <label for="radius">All the same</label>
+                    <input name="radius" class="radius" value="0" max="50" type="range">
+                </div>
+                
+                
+                <div class="topRadius">
+                    <div class="leftTopBox singleBox">
+                        <label for="leftTopRadius">Top left</label>
+                        <input name="leftTopRadius" class="leftTopRadius" value="0" max="50" type="range"> 
+                    </div>
+                    
+                    <div class="rightTopBox singleBox">
+                        <label for="rightTopRadius">Top right</label>
+                        <input name="rightTopRadius" class="rightTopRadius" value="0" max="50" type="range"> 
+                    </div>
+                    
+                </div>
+
+                <div class="bottomRadius">
+                    <div class="leftBottomBox singleBox">
+                        <label for="leftBottomRadius">Bottom left</label>
+                        <input name="leftBottomRadius" class="leftBottomRadius" value="0" max="50" type="range"> 
+                    </div>
+                    
+                    <div class="rightBottomBox singleBox">
+                        <label for="rightBottomRadius">Bottom right</label>
+                        <input name="rightBottomRadius" class="rightBottomRadius" value="0" max="50" type="range">   
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+        
+        </div>
+    
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>

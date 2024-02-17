@@ -1,0 +1,33 @@
+h1, label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 150px;
+    margin-top: 30px;
+}
+
+.inputsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.singleBox, .fullRadius{
+    width: 250px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.rightTopBox, .rightBottomBox {
+    margin-left: 20px;
+}
+
+.titleBox {
+    display: flex;
+    justify-content: center;
+}
