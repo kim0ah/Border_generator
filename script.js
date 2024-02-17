@@ -24,7 +24,4 @@ rightTopRadius.addEventListener('input', radiusGenerator)
 leftBottomRadius.addEventListener('input', radiusGenerator)
 rightBottomRadius.addEventListener('input', radiusGenerator)
 
-console.dir(radius);
-
-
 // radius.oninput = radiusGenerator
